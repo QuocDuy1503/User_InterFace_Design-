@@ -1,0 +1,472 @@
+:root {
+  --fallback-font-stack: Helvetica, Arial, serif;
+}
+
+.trang-tin-sach.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px 0;
+  background-color: white;
+  overflow: hidden;
+}
+.trang-tin-sach .contentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 54px 0;
+  width: 100%;
+}
+.trang-tin-sach .topSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 29px 0;
+}
+.trang-tin-sach .navigationWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.trang-tin-sach .primaryNav {
+  display: flex;
+  flex-direction: column;
+  border-color: forestgreen;
+  border-style: solid;
+  border-width: 0 0 2px;
+}
+.trang-tin-sach .menuList {
+  display: flex;
+  gap: 0 16px;
+  margin: 0 auto 2px;
+  width: 1270px;
+}
+.trang-tin-sach .logoImg {
+  width: 195px;
+  min-width: 0;
+}
+.trang-tin-sach .homeLink {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 16px/5.5 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.trang-tin-sach .newsLink {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 15.88px/5.54 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.trang-tin-sach .image1 {
+  margin: 40px 0 38px;
+  width: 10px;
+  min-width: 0;
+}
+.trang-tin-sach .booksLink {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 16px/5.5 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.trang-tin-sach .image2 {
+  margin: 40px 0 38px;
+  width: 11px;
+  min-width: 0;
+}
+.trang-tin-sach .authorLink {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 15.75px/5.58 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.trang-tin-sach .contestLink {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 16px/5.5 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.trang-tin-sach .aboutLink {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 16px/5.5 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.trang-tin-sach .image3 {
+  width: 69px;
+  min-width: 0;
+}
+.trang-tin-sach .content_box1 {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0;
+  width: 240px;
+  min-width: 0;
+  background: var(--src) center center/100% 100% no-repeat;
+  border-radius: 20px;
+  outline: 1px solid #bbbbbf;
+  outline-offset: -1px;
+}
+.trang-tin-sach .image4 {
+  margin: 1px 1px 0 194px;
+  width: 45px;
+  height: 39px;
+}
+.trang-tin-sach .wrapper2 {
+  margin: 28px 0 36px;
+  width: 24px;
+  min-width: 0;
+}
+.trang-tin-sach .content_box {
+  display: flex;
+  flex-direction: column;
+  margin: 33px 0 31px;
+  width: 24px;
+  min-width: 0;
+  background: var(--src) center center/100% 100% no-repeat;
+}
+.trang-tin-sach .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 11px 0 1px 5px;
+  font: 400 12px/1 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: forestgreen;
+  border-radius: 6px;
+  padding: 0 4px;
+}
+.trang-tin-sach .content_box3 {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/100% 100% no-repeat;
+}
+.trang-tin-sach .flex_row {
+  display: flex;
+  gap: 0 7px;
+  margin: 15.5px auto;
+  width: 1270px;
+}
+.trang-tin-sach .text1 {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  font: 400 14px/1.71 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-tin-sach .image5 {
+  margin: 1.5px 0;
+  width: 10px;
+  min-width: 0;
+}
+.trang-tin-sach .text2 {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  font: 400 14px/1.71 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.trang-tin-sach .infoSection {
+  display: flex;
+  flex-direction: column;
+  width: 43.07%;
+}
+.trang-tin-sach .medium_title {
+  display: flex;
+  align-items: center;
+  font: 700 27.23px/1.23 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  letter-spacing: -0.1px;
+}
+.trang-tin-sach .highlight3 {
+  display: flex;
+  align-items: center;
+  margin: 3px 0 0;
+  font: 400 15.13px/1.13 Inter, Helvetica, Arial, serif;
+  color: #212529;
+}
+.trang-tin-sach .highlight4 {
+  display: flex;
+  align-items: center;
+  margin: 6px 0 0;
+  font: 400 16px/1.07 Inter, Helvetica, Arial, serif;
+  color: #212529;
+}
+.trang-tin-sach .highlight5 {
+  display: flex;
+  align-items: center;
+  margin: 14px 0 0;
+  font: 400 16px/1.5 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.trang-tin-sach .highlight6 {
+  display: flex;
+  align-items: center;
+  margin: 14px 0 0;
+  font: 400 15px/1.14 Inter, Helvetica, Arial, serif;
+  color: #212529;
+}
+.trang-tin-sach .highlight61 {
+  display: flex;
+  align-items: center;
+  margin: 14px 10px 0 0;
+  font: 400 15px/1.14 Inter, Helvetica, Arial, serif;
+  color: #212529;
+}
+.trang-tin-sach .highlight31 {
+  display: flex;
+  align-items: center;
+  margin: 14px 0 0;
+  font: 400 15.13px/1.13 Inter, Helvetica, Arial, serif;
+  color: #212529;
+}
+.trang-tin-sach .highlight7 {
+  display: flex;
+  align-items: center;
+  margin: 14px 0 0;
+  font: 400 15.25px/1.12 Inter, Helvetica, Arial, serif;
+  color: #212529;
+}
+.trang-tin-sach .subscribeSection {
+  display: flex;
+  flex-direction: column;
+  background-color: forestgreen;
+}
+.trang-tin-sach .flex_row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 10px;
+  margin: 21px auto;
+  width: 1270px;
+}
+.trang-tin-sach .color4 {
+  width: 38px;
+  min-width: 0;
+  height: 38px;
+  min-height: 38px;
+  border-radius: 19px;
+  outline: 2px solid white;
+  outline-offset: -2px;
+  opacity: 0.5;
+}
+.trang-tin-sach .highlight8 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 0;
+  font: 700 15.75px/1.21 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: -0.1px;
+}
+.trang-tin-sach .content_box4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 343px;
+  min-width: 0;
+  background-color: white;
+  border-radius: 3px;
+  outline: 1px solid #ebebeb;
+}
+.trang-tin-sach .text3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 9px 0 10px 15px;
+  width: 119px;
+  font: 400 14px/1.21 Inter, Helvetica, Arial, serif;
+  color: #6c757d;
+}
+.trang-tin-sach .btn1 {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 38px;
+  font: 700 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #37cd37;
+  border-radius: 0 3px 3px 0;
+  padding: 8.5px 16px;
+}
+.trang-tin-sach .footerContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 0 0 17.5px;
+  width: 64.95%;
+}
+.trang-tin-sach .contactInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 14.5px;
+  width: 292px;
+  min-width: 0;
+}
+.trang-tin-sach .flex_row2 {
+  z-index: 4;
+  display: flex;
+  gap: 0 10px;
+}
+.trang-tin-sach .wrapper {
+  margin: 0 0 7px;
+  width: 64px;
+  min-width: 0;
+}
+.trang-tin-sach .highlight9 {
+  display: flex;
+  align-items: center;
+  margin: 43px 0 0;
+  min-width: 0;
+  font: 400 15px/1.73 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.trang-tin-sach .flex_row3 {
+  display: flex;
+  margin: 13px 0 0;
+}
+.trang-tin-sach .image6 {
+  margin: 0 0 18px;
+  width: 30px;
+  min-width: 0;
+}
+.trang-tin-sach .paragraph {
+  display: flex;
+  align-items: center;
+  width: 262px;
+  min-width: 0;
+  font: 400 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: #212529;
+}
+.trang-tin-sach .flex_row4 {
+  display: flex;
+  margin: 12px 0 0;
+}
+.trang-tin-sach .image61 {
+  width: 30px;
+  min-width: 0;
+}
+.trang-tin-sach .text5 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 3px;
+  min-width: 0;
+  font: 400 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-tin-sach .text6 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 3px;
+  min-width: 0;
+  font: 400 13.56px/1.54 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-tin-sach .text7 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 3px;
+  min-width: 0;
+  font: 400 13.45px/1.56 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-tin-sach .aboutLinks {
+  display: flex;
+  flex-direction: column;
+  margin: 44.5px 0 0;
+  width: 137px;
+  min-width: 0;
+}
+.trang-tin-sach .highlight10 {
+  display: flex;
+  align-items: center;
+  font: 700 15.75px/1.21 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  text-transform: uppercase;
+}
+.trang-tin-sach .text8 {
+  display: flex;
+  align-items: center;
+  margin: 18px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-tin-sach .text81 {
+  display: flex;
+  align-items: center;
+  margin: 16px 9px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-tin-sach .text82 {
+  display: flex;
+  align-items: center;
+  margin: 16px 7px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-tin-sach .text83 {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-tin-sach .policyLinks {
+  display: flex;
+  flex-direction: column;
+  margin: 44.5px 0 72px;
+  width: 234px;
+  min-width: 0;
+}
+.trang-tin-sach .highlight101 {
+  display: flex;
+  align-items: center;
+  font: 700 15.75px/1.21 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  text-transform: uppercase;
+  letter-spacing: -0.1px;
+}
+.trang-tin-sach .paymentSection {
+  display: flex;
+  flex-direction: column;
+  margin: 44.5px 0 18.5px;
+  width: 279px;
+  min-width: 0;
+}
+.trang-tin-sach .highlight11 {
+  display: flex;
+  align-items: center;
+  font: 700 15.5px/1.23 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  text-transform: uppercase;
+}
+.trang-tin-sach .image11 {
+  margin: 15.5px 0 0;
+  width: 100%;
+}
+.trang-tin-sach .image12 {
+  margin: 20px 0 0;
+  width: 158px;
+}
