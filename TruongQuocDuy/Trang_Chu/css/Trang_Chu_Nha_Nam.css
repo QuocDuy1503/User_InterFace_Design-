@@ -1,0 +1,810 @@
+:root {
+  --fallback-font-stack: Helvetica, Arial, serif;
+}
+
+.trang-chu-nha-nam.main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+}
+.trang-chu-nha-nam .navigationSection {
+  display: flex;
+  flex-direction: column;
+  border-color: forestgreen;
+  border-style: solid;
+  border-width: 0 0 2px;
+}
+.trang-chu-nha-nam .menuContainer {
+  display: flex;
+  gap: 0 15px;
+  margin: 0 auto 1.5px;
+  width: 1290px;
+}
+.trang-chu-nha-nam .brandLogo {
+  margin: 0 0 0.5px;
+  width: 215px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .homeLink {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  font: 500 16px/5.5 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  letter-spacing: -0.1px;
+}
+.trang-chu-nha-nam .booksNewsLink {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  font: 500 15.88px/5.54 Inter, Helvetica, Arial, serif;
+  color: #151515;
+  letter-spacing: -0.1px;
+}
+.trang-chu-nha-nam .menuDivider {
+  margin: 41px 0 39.5px;
+  width: 12px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .publisherBooksLink {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  font: 500 16px/5.5 Inter, Helvetica, Arial, serif;
+  color: #151515;
+  letter-spacing: -0.1px;
+}
+.trang-chu-nha-nam .authorsLink {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 15.75px/5.58 Inter, Helvetica, Arial, serif;
+  color: #151515;
+  letter-spacing: -0.1px;
+}
+.trang-chu-nha-nam .contestLink {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  font: 500 16px/5.5 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.trang-chu-nha-nam .aboutLink {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  font: 500 16px/5.5 Inter, Helvetica, Arial, serif;
+  color: #151515;
+  letter-spacing: -0.1px;
+}
+.trang-chu-nha-nam .searchIcon {
+  margin: 0 0 0.5px;
+  width: 69px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .profileWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0 24.5px;
+  width: 240px;
+  min-width: 0;
+  border-radius: 20px;
+  outline: 1px solid #bbbbbf;
+  outline-offset: -1px;
+}
+.trang-chu-nha-nam .profileContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 1px 1px 0;
+  background: var(--src) center center/100% 100% no-repeat;
+}
+.trang-chu-nha-nam .userAvatar {
+  margin: 0 0 0 auto;
+  width: 45px;
+}
+.trang-chu-nha-nam .cartWrapper {
+  display: flex;
+  gap: 0 13px;
+  margin: 28px 0 31.5px;
+  width: 61px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .cartIcon {
+  width: 24px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .cartContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0 0;
+  width: 24px;
+  min-width: 0;
+  background: var(--src) center center/100% 100% no-repeat;
+}
+.trang-chu-nha-nam .cartCounter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 11px 0 1px 5px;
+  font: 400 12px/1 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: forestgreen;
+  border-radius: 6px;
+  padding: 0 5px 0 6px;
+}
+.trang-chu-nha-nam .scheduleSection {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/100% 100% no-repeat;
+}
+.trang-chu-nha-nam .scheduleContainer {
+  display: flex;
+  gap: 0 20px;
+  margin: 30px auto 50px;
+  width: 1270px;
+}
+.trang-chu-nha-nam .mainLogo {
+  z-index: 1;
+  width: 840px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .dateEntriesWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 1px;
+  width: 410px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .dateEntryBox {
+  display: flex;
+  flex-direction: column;
+  border-color: #bbbbbf;
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+.trang-chu-nha-nam .dateContent {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 25px;
+  background-color: white;
+  border-radius: 5px;
+}
+.trang-chu-nha-nam .dateRow {
+  display: flex;
+  gap: 0 20px;
+}
+.trang-chu-nha-nam .dateIcon {
+  width: 196px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .dateDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 11px 0;
+  margin: 10px 0 26px;
+  width: 156px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .calendarIcon {
+  width: 100%;
+}
+.trang-chu-nha-nam .dateText {
+  display: flex;
+  align-items: center;
+  margin: 0 11px 0 0;
+  font: 400 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: #7b7b7d;
+  letter-spacing: -0.31px;
+}
+.trang-chu-nha-nam .dateContent1 {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0 25px;
+  background-color: white;
+  border-radius: 5px;
+}
+.trang-chu-nha-nam .dateDetails1 {
+  display: flex;
+  flex-direction: column;
+  gap: 11px 0;
+  margin: 10px 0 25px;
+  width: 169px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .dateText1 {
+  display: flex;
+  align-items: center;
+  margin: 0 24px 0 0;
+  font: 400 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: #7b7b7d;
+  letter-spacing: -0.31px;
+}
+.trang-chu-nha-nam .dateDetails2 {
+  display: flex;
+  flex-direction: column;
+  gap: 11px 0;
+  margin: 10px 0 26px;
+  width: 169px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .dateText2 {
+  display: flex;
+  align-items: center;
+  margin: 0 27px 0 0;
+  font: 400 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: #7b7b7d;
+  letter-spacing: -0.2px;
+}
+.trang-chu-nha-nam .dateEntryBox1 {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0 0;
+  background-color: white;
+  border-radius: 5px;
+}
+.trang-chu-nha-nam .dateDetails3 {
+  display: flex;
+  flex-direction: column;
+  gap: 11px 0;
+  margin: 10px 0 25px;
+  width: 164px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .dateText3 {
+  display: flex;
+  align-items: center;
+  margin: 0 31px 0 0;
+  font: 400 13.89px/1.51 Inter, Helvetica, Arial, serif;
+  color: #7b7b7d;
+  letter-spacing: -0.4px;
+}
+.trang-chu-nha-nam .authorBookSection {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.trang-chu-nha-nam .contentWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 60px 0;
+  margin: 30px auto 0;
+  width: 1270px;
+}
+.trang-chu-nha-nam .authorContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 28px 0;
+}
+.trang-chu-nha-nam .authorHeader {
+  display: flex;
+  flex-direction: column;
+  border-color: forestgreen;
+  border-style: solid;
+  border-width: 2px 0 0;
+}
+.trang-chu-nha-nam .headerFlex {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 11px 0 0;
+}
+.trang-chu-nha-nam .sectionTitle {
+  display: flex;
+  align-items: center;
+  margin: 1px 0 0;
+  min-width: 0;
+  font: 700 28px/1.19 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  letter-spacing: -0.2px;
+}
+.trang-chu-nha-nam .viewMoreWrapper {
+  display: flex;
+  margin: 0 0 12px;
+  width: 106px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .viewMoreText {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  font: 500 15px/1.5 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.trang-chu-nha-nam .arrowIcon {
+  width: 33px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .authorImg {
+  width: 100%;
+}
+.trang-chu-nha-nam .newBookContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 28px 0;
+}
+.trang-chu-nha-nam .bookHeader {
+  display: flex;
+  flex-direction: column;
+  border-color: forestgreen;
+  border-style: solid;
+  border-width: 2px 0 0;
+}
+.trang-chu-nha-nam .sectionTitle1 {
+  display: flex;
+  align-items: center;
+  margin: 1px 0 0;
+  min-width: 0;
+  font: 700 28px/1.19 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  letter-spacing: -0.1px;
+}
+.trang-chu-nha-nam .bookImgGroup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.trang-chu-nha-nam .bookCover {
+  position: relative;
+  width: 100%;
+}
+.trang-chu-nha-nam .decorIcon {
+  position: absolute;
+  top: 91px;
+  right: -20px;
+  width: 35px;
+}
+.trang-chu-nha-nam .decorIcon1 {
+  position: absolute;
+  inset: 159px 305px 618px 1580px;
+  width: 35px;
+}
+.trang-chu-nha-nam .decorIcon2 {
+  position: absolute;
+  inset: 159px 1580px 618px 305px;
+  width: 35px;
+}
+.trang-chu-nha-nam .decorIcon3 {
+  position: absolute;
+  inset: 562px 1580px 215px 305px;
+  width: 35px;
+}
+.trang-chu-nha-nam .publisherSection {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.trang-chu-nha-nam .contentWrapper1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 110px auto 96px;
+  width: 1280px;
+}
+.trang-chu-nha-nam .infoContainer {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px 0;
+  margin: 0 0 58px;
+  width: 488px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .textContent {
+  display: flex;
+  flex-direction: column;
+  gap: 18px 0;
+}
+.trang-chu-nha-nam .headingGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 3px 0;
+  width: 159px;
+}
+.trang-chu-nha-nam .companyName {
+  display: flex;
+  align-items: center;
+  margin: 0 33px 0 0;
+  font: 700 28px/1.19 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.trang-chu-nha-nam .tagline {
+  display: flex;
+  align-items: center;
+  font: 400 16px/1.62 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.trang-chu-nha-nam .companyDesc {
+  display: flex;
+  align-items: center;
+  font: 400 16px/1.62 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.trang-chu-nha-nam .readMoreBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 177px;
+  max-width: 100%;
+  font: 400 14px/3.42 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: forestgreen;
+  border-radius: 3px;
+  padding: 0.5px 8px;
+  outline: 1px solid forestgreen;
+  outline-offset: -1px;
+}
+.trang-chu-nha-nam .companyLogo {
+  width: 645px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .publishingSection {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.trang-chu-nha-nam .contentWrapper2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1270px;
+}
+.trang-chu-nha-nam .upcomingBooks {
+  display: flex;
+  flex-direction: column;
+  gap: 28px 0;
+}
+.trang-chu-nha-nam .sectionHeader {
+  display: flex;
+  flex-direction: column;
+  border-color: forestgreen;
+  border-style: solid;
+  border-width: 2px 0 0;
+}
+.trang-chu-nha-nam .headerContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 11px 0 0;
+}
+.trang-chu-nha-nam .bookGallery {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.trang-chu-nha-nam .prevBtn {
+  position: absolute;
+  top: 91px;
+  right: -20px;
+  width: 35px;
+}
+.trang-chu-nha-nam .nextBtn {
+  position: absolute;
+  top: 91px;
+  left: -20px;
+  width: 35px;
+}
+.trang-chu-nha-nam .pressReviews {
+  display: flex;
+  flex-direction: column;
+  gap: 28px 0;
+  margin: 30px 0 0;
+}
+.trang-chu-nha-nam .sectionTitle2 {
+  display: flex;
+  align-items: center;
+  margin: 1px 0 0;
+  min-width: 0;
+  font: 700 28px/1.19 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  letter-spacing: -0.31px;
+}
+.trang-chu-nha-nam .pressGallery {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.trang-chu-nha-nam .pressImage {
+  position: relative;
+  width: 100%;
+}
+.trang-chu-nha-nam .prevBtn1 {
+  position: absolute;
+  top: 116px;
+  left: -20px;
+  width: 35px;
+}
+.trang-chu-nha-nam .nextBtn1 {
+  position: absolute;
+  top: 116px;
+  right: -20px;
+  width: 35px;
+}
+.trang-chu-nha-nam .partnerShowcase {
+  display: flex;
+  flex-direction: column;
+  gap: 28px 0;
+  margin: 60px 0 0;
+}
+.trang-chu-nha-nam .headerContent1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 10px 0 0;
+}
+.trang-chu-nha-nam .sectionTitle3 {
+  display: flex;
+  align-items: center;
+  margin: 2px 0 0;
+  min-width: 0;
+  font: 700 28px/1.19 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  letter-spacing: -0.1px;
+}
+.trang-chu-nha-nam .viewMoreWrapper1 {
+  display: flex;
+  margin: 0 0 13px;
+  width: 106px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .partnerGallery {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.trang-chu-nha-nam .partnerLogo {
+  position: relative;
+  width: 100%;
+}
+.trang-chu-nha-nam .prevBtn2 {
+  position: absolute;
+  top: 55px;
+  left: -20px;
+  width: 35px;
+}
+.trang-chu-nha-nam .nextBtn2 {
+  position: absolute;
+  top: 55px;
+  right: -20px;
+  width: 35px;
+}
+.trang-chu-nha-nam .section6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 18px;
+}
+.trang-chu-nha-nam .content_box1 {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0;
+  width: 100%;
+  background-color: forestgreen;
+}
+.trang-chu-nha-nam .flex_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 10px;
+  margin: 0 auto;
+  width: 1280px;
+}
+.trang-chu-nha-nam .image5 {
+  width: 430px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .highlight4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 0;
+  font: 700 15.75px/1.21 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: -0.2px;
+}
+.trang-chu-nha-nam .content_box {
+  display: flex;
+  flex-direction: column;
+  width: 344px;
+  min-width: 0;
+  background-color: white;
+  border-radius: 3px;
+  outline: 1px solid #ebebeb;
+}
+.trang-chu-nha-nam .flex_row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 10px;
+  margin: 0 0 0 15px;
+}
+.trang-chu-nha-nam .text1 {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  font: 400 14px/1.21 Inter, Helvetica, Arial, serif;
+  color: #6c757d;
+}
+.trang-chu-nha-nam .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 84px;
+  font: 700 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #37cd37;
+  border-radius: 0 3px 3px 0;
+  padding: 8.5px 16px;
+}
+.trang-chu-nha-nam .flex_row2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 34px 0 0;
+  width: 66.15%;
+}
+.trang-chu-nha-nam .flex_col {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 15px;
+  width: 287px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .flex_row3 {
+  z-index: 4;
+  display: flex;
+  gap: 0 10px;
+}
+.trang-chu-nha-nam .wrapper1 {
+  margin: 0 0 7px;
+  width: 64px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .highlight5 {
+  display: flex;
+  align-items: center;
+  margin: 43px 0 0;
+  min-width: 0;
+  font: 400 15px/1.73 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.trang-chu-nha-nam .flex_row4 {
+  display: flex;
+  margin: 13px 0 0;
+}
+.trang-chu-nha-nam .image7 {
+  margin: 0 0 18px;
+  width: 30px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .paragraph {
+  display: flex;
+  align-items: center;
+  width: 257px;
+  min-width: 0;
+  font: 400 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: #212529;
+  letter-spacing: -0.1px;
+}
+.trang-chu-nha-nam .flex_row5 {
+  display: flex;
+  margin: 12px 0 0;
+}
+.trang-chu-nha-nam .image71 {
+  width: 30px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .text3 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 3px;
+  min-width: 0;
+  font: 400 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-chu-nha-nam .text4 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 3px;
+  min-width: 0;
+  font: 400 13.56px/1.54 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-chu-nha-nam .text5 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 3px;
+  min-width: 0;
+  font: 400 13.45px/1.56 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-chu-nha-nam .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  margin: 45px 0 0;
+  width: 137px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .highlight6 {
+  display: flex;
+  align-items: center;
+  font: 700 15.75px/1.21 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  text-transform: uppercase;
+}
+.trang-chu-nha-nam .text6 {
+  display: flex;
+  align-items: center;
+  margin: 18px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-chu-nha-nam .text61 {
+  display: flex;
+  align-items: center;
+  margin: 16px 9px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-chu-nha-nam .text62 {
+  display: flex;
+  align-items: center;
+  margin: 16px 7px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-chu-nha-nam .text63 {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+  letter-spacing: -0.1px;
+}
+.trang-chu-nha-nam .text64 {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-chu-nha-nam .flex_col2 {
+  display: flex;
+  flex-direction: column;
+  margin: 45px 0 72px;
+  width: 234px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .flex_col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px 0;
+  margin: 45px 0 18px;
+  width: 302px;
+  min-width: 0;
+}
+.trang-chu-nha-nam .highlight7 {
+  display: flex;
+  align-items: center;
+  font: 700 15.5px/1.23 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  text-transform: uppercase;
+}
+.trang-chu-nha-nam .image12 {
+  width: 100%;
+}
+.trang-chu-nha-nam .image13 {
+  width: 100%;
+}

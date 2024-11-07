@@ -1,0 +1,695 @@
+:root {
+  --fallback-font-stack: Helvetica, Arial, serif;
+}
+
+.trang-dang-nhap1.main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+}
+.trang-dang-nhap1 .navigationSection {
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  border-color: forestgreen;
+  border-style: solid;
+  border-width: 0 0 2px;
+}
+.trang-dang-nhap1 .navContainer {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  margin: 0 auto 2px;
+  width: 1270px;
+}
+.trang-dang-nhap1 .menuList {
+  display: flex;
+  gap: 0 17px;
+  width: 948px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .logoImg {
+  width: 195px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .homeLink {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 16px/5.5 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.trang-dang-nhap1 .booksLink {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 15.88px/5.54 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.trang-dang-nhap1 .menuArrow1 {
+  margin: 40px 0 38px;
+  width: 11px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .publisherLink {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 16px/5.5 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.trang-dang-nhap1 .menuArrow2 {
+  margin: 40px 0 38px;
+  width: 11px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .authorLink {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 15.75px/5.58 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.trang-dang-nhap1 .contestLink {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 16px/5.5 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.trang-dang-nhap1 .menuArrow3 {
+  margin: 40px 0 38px;
+  width: 10px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .aboutLink {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 16px/5.5 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.trang-dang-nhap1 .decorativeImg {
+  width: 69px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .searchWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  min-width: 0;
+  background: var(--src) center center/100% 100% no-repeat;
+  border-radius: 20px;
+  outline: 1px solid #bbbbbf;
+  outline-offset: -1px;
+}
+.trang-dang-nhap1 .searchIcon {
+  margin: 1px 1px 0 194px;
+  width: 45px;
+}
+.trang-dang-nhap1 .cartWrapper {
+  display: flex;
+  gap: 0 13px;
+  width: 61px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .cartIcon {
+  margin: 0 0 5px;
+  width: 24px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .cartCounter {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0 0;
+  width: 24px;
+  min-width: 0;
+  background: var(--src) center center/100% 100% no-repeat;
+}
+.trang-dang-nhap1 .cartBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 11px 0 1px 5px;
+  font: 400 12px/1 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: forestgreen;
+  border-radius: 6px;
+  padding: 0 5px 0 6px;
+}
+.trang-dang-nhap1 .breadcrumbSection {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/100% 100% no-repeat;
+}
+.trang-dang-nhap1 .breadcrumbWrapper {
+  display: flex;
+  gap: 0 7px;
+  margin: 15.5px auto;
+  width: 1270px;
+}
+.trang-dang-nhap1 .homeLink1 {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  font: 400 14px/1.71 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-dang-nhap1 .separatorIcon {
+  margin: 1.5px 0;
+  width: 10px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .loginLink {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  font: 400 14px/1.71 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.trang-dang-nhap1 .authenticationSection {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.trang-dang-nhap1 .containerWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto 59px;
+  width: 840px;
+  outline: 1px solid forestgreen;
+  outline-offset: -1px;
+}
+.trang-dang-nhap1 .mainContent {
+  display: flex;
+  margin: 1px;
+}
+.trang-dang-nhap1 .loginFormContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 548px;
+  min-width: 0;
+  background-color: white;
+}
+.trang-dang-nhap1 .divider {
+  position: absolute;
+  top: 313px;
+  left: 30px;
+  width: 488px;
+  height: 1px;
+  background-color: #ebebeb;
+}
+.trang-dang-nhap1 .formWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 30px 46.5px;
+  width: 488px;
+  height: 389.5px;
+}
+.trang-dang-nhap1 .loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.trang-dang-nhap1 .formTitle {
+  display: flex;
+  align-items: center;
+  font: 700 18px/1.22 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.trang-dang-nhap1 .emailGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 9px 0;
+  margin: 14.5px 1px 0 0;
+}
+.trang-dang-nhap1 .emailLabel_box {
+  display: flex;
+  align-items: center;
+}
+.trang-dang-nhap1 .emailLabel {
+  font: 400 16px/1.5 Inter, Helvetica, Arial, serif;
+  color: black;
+}
+.trang-dang-nhap1 .emailLabel_span0 {
+  font: 1em/1.5 Inter, Helvetica, Arial, serif;
+  color: #212529;
+}
+.trang-dang-nhap1 .emailLabel_span1 {
+  font: 1em/1.5 Inter, Helvetica, Arial, serif;
+  color: red;
+}
+.trang-dang-nhap1 .emailInput {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 1px;
+  background-color: white;
+  border-radius: 3px;
+  outline: 1px solid #eaebf3;
+}
+.trang-dang-nhap1 .emailPlaceholder {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 11px 15px;
+  width: 36px;
+  font: 400 14px/1.21 Inter, Helvetica, Arial, serif;
+  color: #cdcfdd;
+}
+.trang-dang-nhap1 .passwordGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 9px 0;
+  margin: 15.5px 1px 0 0;
+}
+.trang-dang-nhap1 .passwordLabel_box {
+  display: flex;
+  align-items: center;
+}
+.trang-dang-nhap1 .passwordLabel {
+  font: 400 16px/1.5 Inter, Helvetica, Arial, serif;
+  color: black;
+}
+.trang-dang-nhap1 .passwordLabel_span0 {
+  font: 1em/1.5 Inter, Helvetica, Arial, serif;
+  color: #212529;
+}
+.trang-dang-nhap1 .passwordLabel_span1 {
+  font: 1em/1.5 Inter, Helvetica, Arial, serif;
+  color: red;
+}
+.trang-dang-nhap1 .passwordInput {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 1px;
+  background-color: white;
+  border-radius: 3px;
+  outline: 1px solid #eaebf3;
+}
+.trang-dang-nhap1 .passwordPlaceholder {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 11px 15px;
+  width: 61px;
+  font: 400 14px/1.21 Inter, Helvetica, Arial, serif;
+  color: #cdcfdd;
+}
+.trang-dang-nhap1 .loginBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15.5px 0 0;
+  font: 400 15.75px/2.53 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: forestgreen;
+  border-radius: 4px;
+  padding: 0.25px 8px;
+}
+.trang-dang-nhap1 .socialLoginTitle {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 19.5px 0 0;
+  width: 39.34%;
+  background-color: white;
+}
+.trang-dang-nhap1 .socialText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 12.5px;
+  font: 400 16px/1.5 Inter, Helvetica, Arial, serif;
+  color: #212529;
+  text-align: center;
+}
+.trang-dang-nhap1 .socialBtnGroup {
+  display: flex;
+  gap: 0 4px;
+  margin: 16.5px 0 0;
+  width: 53.69%;
+}
+.trang-dang-nhap1 .socialIcon {
+  width: 129px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .forgotPasswordGroup {
+  display: flex;
+  gap: 0 3px;
+  margin: 19.5px 0 0;
+  width: 51.23%;
+}
+.trang-dang-nhap1 .forgotText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  font: 400 16px/1.5 Inter, Helvetica, Arial, serif;
+  color: #212529;
+  text-align: center;
+}
+.trang-dang-nhap1 .forgotLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  font: 400 16px/1.5 Inter, Helvetica, Arial, serif;
+  color: #007bff;
+  text-align: center;
+  text-decoration: underline;
+}
+.trang-dang-nhap1 .benefitsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  min-width: 0;
+  background-color: forestgreen;
+}
+.trang-dang-nhap1 .benefitsList {
+  display: flex;
+  flex-direction: column;
+  margin: 29px 0 107px 30px;
+  width: 73.45%;
+}
+.trang-dang-nhap1 .benefitsTitle {
+  display: flex;
+  align-items: center;
+  margin: 0 9px 0 0;
+  font: 400 18px/1.2 Inter, Helvetica, Arial, serif;
+  color: white;
+}
+.trang-dang-nhap1 .benefitItem {
+  display: flex;
+  align-items: center;
+  margin: 40px 0 0;
+  font: 400 16px/1.5 Inter, Helvetica, Arial, serif;
+  color: white;
+}
+.trang-dang-nhap1 .benefitItem1 {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 0;
+  font: 400 16px/1.5 Inter, Helvetica, Arial, serif;
+  color: white;
+}
+.trang-dang-nhap1 .benefitItem2 {
+  display: flex;
+  align-items: center;
+  margin: 15.5px 0 0;
+  font: 400 16px/1.5 Inter, Helvetica, Arial, serif;
+  color: white;
+}
+.trang-dang-nhap1 .registerBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20.5px 0 0;
+  width: 145px;
+  max-width: 100%;
+  font: 400 16px/2.37 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  padding: 1px 40px;
+  outline: 1px solid white;
+  outline-offset: -1px;
+}
+.trang-dang-nhap1 .footerSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px 0;
+  margin: 0 0 17.5px;
+}
+.trang-dang-nhap1 .subscriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: forestgreen;
+}
+.trang-dang-nhap1 .subscriptionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 10px;
+  margin: 21px auto;
+  width: 1270px;
+}
+.trang-dang-nhap1 .colorPalette {
+  display: flex;
+  gap: 0 18px;
+  width: 262px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .colorBox {
+  width: 38px;
+  min-width: 0;
+  min-height: 38px;
+  border-radius: 19px;
+  outline: 2px solid white;
+  outline-offset: -2px;
+  opacity: 0.5;
+}
+.trang-dang-nhap1 .promoTitle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 0;
+  font: 700 15.75px/1.21 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: -0.1px;
+}
+.trang-dang-nhap1 .emailSignup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 343px;
+  min-width: 0;
+  background-color: white;
+  border-radius: 3px;
+  outline: 1px solid #ebebeb;
+}
+.trang-dang-nhap1 .emailLabel1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 9px 0 10px 15px;
+  width: 119px;
+  font: 400 14px/1.21 Inter, Helvetica, Arial, serif;
+  color: #6c757d;
+}
+.trang-dang-nhap1 .signupBtn {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 38px;
+  font: 700 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #37cd37;
+  border-radius: 0 3px 3px 0;
+  padding: 8.5px 14px;
+}
+.trang-dang-nhap1 .footerContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  width: 64.95%;
+}
+.trang-dang-nhap1 .contactInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 14.5px;
+  width: 292px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .brandSlogan {
+  z-index: 4;
+  display: flex;
+  gap: 0 10px;
+}
+.trang-dang-nhap1 .logoImg1 {
+  margin: 0 0 7px;
+  width: 64px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .sloganText {
+  display: flex;
+  align-items: center;
+  margin: 43px 0 0;
+  min-width: 0;
+  font: 400 15px/1.73 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.trang-dang-nhap1 .addressContainer {
+  display: flex;
+  margin: 13px 0 0;
+}
+.trang-dang-nhap1 .locationIcon {
+  margin: 0 0 18px;
+  width: 30px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .addressText {
+  display: flex;
+  align-items: center;
+  width: 262px;
+  min-width: 0;
+  font: 400 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: #212529;
+}
+.trang-dang-nhap1 .emailContainer {
+  display: flex;
+  margin: 12px 0 0;
+}
+.trang-dang-nhap1 .emailIcon {
+  width: 30px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .emailAddress {
+  display: flex;
+  align-items: center;
+  margin: 0 0 3px;
+  min-width: 0;
+  font: 400 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-dang-nhap1 .phoneContainer {
+  display: flex;
+  margin: 12px 0 0;
+}
+.trang-dang-nhap1 .phoneIcon {
+  width: 30px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .phoneNumber {
+  display: flex;
+  align-items: center;
+  margin: 0 0 3px;
+  min-width: 0;
+  font: 400 13.56px/1.54 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-dang-nhap1 .faxContainer {
+  display: flex;
+  margin: 12px 0 0;
+}
+.trang-dang-nhap1 .faxIcon {
+  width: 30px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .faxNumber {
+  display: flex;
+  align-items: center;
+  margin: 0 0 3px;
+  min-width: 0;
+  font: 400 13.45px/1.56 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-dang-nhap1 .footerLinks {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 44.5px 0 0;
+  width: 924px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .aboutLinks {
+  display: flex;
+  flex-direction: column;
+  width: 137px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .aboutTitle {
+  display: flex;
+  align-items: center;
+  font: 700 15.75px/1.21 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  text-transform: uppercase;
+}
+.trang-dang-nhap1 .menuLink {
+  display: flex;
+  align-items: center;
+  margin: 18px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-dang-nhap1 .menuLink1 {
+  display: flex;
+  align-items: center;
+  margin: 16px 9px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-dang-nhap1 .menuLink2 {
+  display: flex;
+  align-items: center;
+  margin: 16px 7px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-dang-nhap1 .menuLink3 {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.trang-dang-nhap1 .policyLinks {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 72px;
+  width: 234px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .policyTitle {
+  display: flex;
+  align-items: center;
+  font: 700 15.75px/1.21 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  text-transform: uppercase;
+  letter-spacing: -0.1px;
+}
+.trang-dang-nhap1 .paymentMethods {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 18.5px;
+  width: 279px;
+  min-width: 0;
+}
+.trang-dang-nhap1 .paymentTitle {
+  display: flex;
+  align-items: center;
+  font: 700 15.5px/1.23 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  text-transform: uppercase;
+}
+.trang-dang-nhap1 .paymentImg {
+  margin: 15.5px 0 0;
+  width: 100%;
+}
+.trang-dang-nhap1 .paymentImg1 {
+  margin: 20px 0 0;
+  width: 158px;
+}
