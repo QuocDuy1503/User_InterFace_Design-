@@ -1,0 +1,519 @@
+:root {
+  --fallback-font-stack: Helvetica, Arial, serif;
+}
+
+.thong-tin-khach-hang.main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: hidden;
+}
+.thong-tin-khach-hang .section1 {
+  display: flex;
+  flex-direction: column;
+  border-color: forestgreen;
+  border-style: solid;
+  border-width: 0 0 2px;
+}
+.thong-tin-khach-hang .flex_row {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  margin: 0 auto 2px;
+  width: 1270px;
+}
+.thong-tin-khach-hang .flex_row1 {
+  display: flex;
+  gap: 0 17px;
+  width: 948px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .image {
+  width: 195px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .info {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 16px/5.5 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.thong-tin-khach-hang .info1 {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 15.875px/5.54 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.thong-tin-khach-hang .image1 {
+  margin: 40px 0 38px;
+  width: 11px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .info2 {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 16px/5.5 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.thong-tin-khach-hang .image2 {
+  margin: 40px 0 38px;
+  width: 10px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .info21 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5px;
+  min-width: 0;
+  font: 500 15.75px/5.58 Inter, Helvetica, Arial, serif;
+  color: #151515;
+}
+.thong-tin-khach-hang .image3 {
+  width: 69px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .content_box2 {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  min-width: 0;
+  background: var(--src) center center/100% 100% no-repeat;
+  border-radius: 20px;
+  outline: 1px solid #bbbbbf;
+  outline-offset: -1px;
+}
+.thong-tin-khach-hang .image4 {
+  margin: 1px 1px 0 194px;
+  width: 45px;
+}
+.thong-tin-khach-hang .flex_row2 {
+  display: flex;
+  gap: 0 13px;
+  width: 61px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .wrapper2 {
+  margin: 0 0 5px;
+  width: 24px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .content_box1 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0 0;
+  width: 24px;
+  min-width: 0;
+  background: var(--src) center center/100% 100% no-repeat;
+}
+.thong-tin-khach-hang .content_box {
+  display: flex;
+  flex-direction: column;
+  margin: 11px 0 1px 5px;
+  background-color: forestgreen;
+  border-radius: 6px;
+}
+.thong-tin-khach-hang .info5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px 0 6px;
+  font: 400 12px/1 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+}
+.thong-tin-khach-hang .section2 {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/100% 100% no-repeat;
+}
+.thong-tin-khach-hang .flex_row3 {
+  display: flex;
+  gap: 0 7px;
+  margin: 15.5px auto;
+  width: 1270px;
+}
+.thong-tin-khach-hang .info6 {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  font: 400 14px/1.71 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.thong-tin-khach-hang .image5 {
+  margin: 1.5px 0;
+  width: 10px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .info7 {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  font: 400 14px/1.71 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.thong-tin-khach-hang .section3 {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+.thong-tin-khach-hang .flex_row4 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 134px auto 473px;
+  width: 1270px;
+  padding-right: 670px;
+}
+.thong-tin-khach-hang .flex_col {
+  display: flex;
+  flex-direction: column;
+  width: 148px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .info18 {
+  margin: 0 0 0 1px;
+  font: 500 16px/1.18 Inter, Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: -0.1px;
+}
+.thong-tin-khach-hang .info19_box {
+  margin: 4px 1px 0;
+}
+.thong-tin-khach-hang .info19 {
+  font: 500 12px/1.25 Inter, Helvetica, Arial, serif;
+  color: black;
+}
+.thong-tin-khach-hang .info19_span0 {
+  font: 500 1em/1.25 Inter, Helvetica, Arial, serif;
+}
+.thong-tin-khach-hang .info19_span1 {
+  font: 500 1em/1.25 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.thong-tin-khach-hang .info19_span2 {
+  font: 500 1em/1.25 Inter, Helvetica, Arial, serif;
+}
+.thong-tin-khach-hang .info20 {
+  margin: 49px 37px 0 0;
+  font: 500 12px/1.25 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.thong-tin-khach-hang .info211 {
+  margin: 25px 0 0;
+  font: 500 12px/1.25 Inter, Helvetica, Arial, serif;
+  color: #212529;
+  letter-spacing: -0.1px;
+}
+.thong-tin-khach-hang .info191 {
+  margin: 26px 0 0;
+  font: 500 12px/1.25 Inter, Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: -0.1px;
+}
+.thong-tin-khach-hang .info192 {
+  z-index: 1;
+  margin: 25px 0 0;
+  font: 500 12px/1.25 Inter, Helvetica, Arial, serif;
+  color: black;
+}
+.thong-tin-khach-hang .info193 {
+  margin: 27px 0 0;
+  font: 500 12px/1.25 Inter, Helvetica, Arial, serif;
+  color: black;
+}
+.thong-tin-khach-hang .flex_col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px 0;
+  margin: 0 0 144px;
+  width: 180px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .flex_col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px 0;
+}
+.thong-tin-khach-hang .info181 {
+  font: 500 16px/1.18 Inter, Helvetica, Arial, serif;
+  color: black;
+  letter-spacing: -0.1px;
+}
+.thong-tin-khach-hang .info182 {
+  font: 500 16px/1.18 Inter, Helvetica, Arial, serif;
+  color: black;
+}
+.thong-tin-khach-hang .section4 {
+  display: flex;
+  flex-direction: column;
+  background-color: forestgreen;
+}
+.thong-tin-khach-hang .flex_row5 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 21px auto;
+  width: 1272px;
+}
+.thong-tin-khach-hang .flex_row6 {
+  display: flex;
+  gap: 0 18px;
+  width: 262px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .color4 {
+  width: 38px;
+  min-width: 0;
+  min-height: 38px;
+  border-radius: 19px;
+  outline: 2px solid white;
+  outline-offset: -2px;
+  opacity: 0.5;
+}
+.thong-tin-khach-hang .flex_row7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 10px;
+  width: 740px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .info8 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 0;
+  font: 700 15.75px/1.21 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: -0.1px;
+}
+.thong-tin-khach-hang .content_box4 {
+  position: relative;
+  width: 344px;
+  min-width: 0;
+  min-height: 38px;
+}
+.thong-tin-khach-hang .content_box3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 344px;
+  height: 38px;
+  background-color: white;
+  border-radius: 3px;
+  outline: 1px solid #ebebeb;
+}
+.thong-tin-khach-hang .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 auto;
+  width: 84px;
+  font: 700 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  background-color: #37cd37;
+  border-radius: 0 3px 3px 0;
+  padding: 8.5px 15.5px 8.5px 16.5px;
+}
+.thong-tin-khach-hang .info9 {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  display: flex;
+  align-items: center;
+  width: 119px;
+  height: 17px;
+  font: 400 14px/1.21 Inter, Helvetica, Arial, serif;
+  color: #6c757d;
+}
+.thong-tin-khach-hang .section5 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 17.5px;
+}
+.thong-tin-khach-hang .flex_row8 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 10px;
+  margin: 34px auto 0;
+  width: 1270px;
+  padding-right: 23px;
+}
+.thong-tin-khach-hang .flex_col3 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 14.5px;
+  width: 292px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .flex_row9 {
+  z-index: 4;
+  display: flex;
+  gap: 0 10px;
+}
+.thong-tin-khach-hang .wrapper {
+  margin: 0 0 7px;
+  width: 64px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .info14 {
+  display: flex;
+  align-items: center;
+  margin: 43px 0 0;
+  min-width: 0;
+  font: 400 15px/1.73 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+}
+.thong-tin-khach-hang .flex_row10 {
+  display: flex;
+  margin: 13px 0 0;
+}
+.thong-tin-khach-hang .image6 {
+  margin: 0 0 18px;
+  width: 30px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .desc {
+  display: flex;
+  align-items: center;
+  width: 262px;
+  min-width: 0;
+  font: 400 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: #212529;
+}
+.thong-tin-khach-hang .flex_row11 {
+  display: flex;
+  margin: 12px 0 0;
+}
+.thong-tin-khach-hang .image61 {
+  width: 30px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .info11 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 3px;
+  min-width: 0;
+  font: 400 14px/1.5 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.thong-tin-khach-hang .info12 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 3px;
+  min-width: 0;
+  font: 400 13.5625px/1.54 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.thong-tin-khach-hang .info13 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 3px;
+  min-width: 0;
+  font: 400 13.453125px/1.56 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.thong-tin-khach-hang .flex_col4 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px 0;
+  margin: 44.5px 0 0;
+  width: 137px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .flex_col5 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px 0;
+  width: 85px;
+}
+.thong-tin-khach-hang .info15 {
+  display: flex;
+  align-items: center;
+  font: 700 15.75px/1.21 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  text-transform: uppercase;
+}
+.thong-tin-khach-hang .info16 {
+  display: flex;
+  align-items: center;
+  margin: 0 2px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.thong-tin-khach-hang .info161 {
+  display: flex;
+  align-items: center;
+  margin: 0 9px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.thong-tin-khach-hang .info162 {
+  display: flex;
+  align-items: center;
+  margin: 0 7px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.thong-tin-khach-hang .info163 {
+  display: flex;
+  align-items: center;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.thong-tin-khach-hang .flex_col6 {
+  display: flex;
+  flex-direction: column;
+  margin: 44.5px 0 72px;
+  width: 234px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .info164 {
+  display: flex;
+  align-items: center;
+  margin: 18px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.thong-tin-khach-hang .info165 {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 0;
+  font: 400 14px/1.42 Inter, Helvetica, Arial, serif;
+  color: #333333;
+}
+.thong-tin-khach-hang .flex_col7 {
+  display: flex;
+  flex-direction: column;
+  margin: 44.5px 0 18.5px;
+  width: 279px;
+  min-width: 0;
+}
+.thong-tin-khach-hang .info17 {
+  display: flex;
+  align-items: center;
+  font: 700 15.5px/1.23 Inter, Helvetica, Arial, serif;
+  color: forestgreen;
+  text-transform: uppercase;
+}
+.thong-tin-khach-hang .image11 {
+  margin: 15.5px 0 0;
+  width: 100%;
+}
+.thong-tin-khach-hang .image12 {
+  margin: 20px 0 0;
+  width: 158px;
+}
