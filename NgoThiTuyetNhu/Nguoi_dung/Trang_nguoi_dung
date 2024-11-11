@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="./css/common.css" />
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./css/Thong_tin_khach_hang.css" />
+
+
+
+
+</head>
+
+<body class="flex-column">
+
+    <main class="thong-tin-khach-hang main">
+        <section class="section1">
+            <div class="flex_row">
+                <div class="flex_row1">
+                    <img class="image" src="./assets/c98dfcbcbf06aeb9a958727a2d931488.png" alt="alt text" />
+                    <div class="info">Trang chủ</div>
+                    <div class="info1">Tin Sách</div>
+                    <img class="image1" src="./assets/9eb23269c5db771d88f6325a5c691d2a.svg" alt="alt text" />
+                    <div class="info2">Sách Nhã Nam</div>
+                    <img class="image2" src="./assets/62f53065fd2a7957683b5616b0d4a8f0.svg" alt="alt text" />
+                    <div class="info21">Tác giả</div>
+                    <div class="info2">Cuộc Thi</div>
+                    <img class="image2" src="./assets/34326b44efea8d0efb184ee27074fd6a.svg" alt="alt text" />
+                    <div class="info">Về Nhã Nam</div>
+                    <img class="image3" src="./assets/99c8c7e987c7d120f2a0d60c7070d5df.png" alt="alt text" />
+                </div>
+                <div class="content_box2" style="--src:url(../assets/fc74600487a0cab46b76e1cda5746061.png)"><img class="image4" src="./assets/cbab162c1dacee5f9b8814d6aa4503af.png" alt="alt text" /></div>
+                <div class="flex_row2">
+                    <img class="wrapper2" src="./assets/1e60823fe8063f059dd427f11397847a.svg" alt="alt text" />
+                    <div class="content_box1" style="--src:url(../assets/748da7112bb0608ce3fbca4045050e36.svg)">
+                        <div class="content_box">
+                            <div class="info5">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section2" style="--src:url(../assets/67aaa9bb68f8f35e4032750eca49cf1c.png)">
+            <div class="flex_row3">
+                <div class="info6">Trang chủ</div>
+                <img class="image5" src="./assets/7ac86d0b0aaa9f915c3dac54afed5f71.svg" alt="alt text" />
+                <div class="info7">Khách hàng</div>
+            </div>
+        </section>
+
+        <section class="section3">
+            <div class="flex_row4">
+                <div class="flex_col">
+                    <div class="info18">TRANG TÀI KHOẢN</div>
+                    <div class="info19_box">
+                        <span class="info19">
+                <span class="info19_span0">Xin chào, </span>
+                        <span class="info19_span1">User</span>
+                        <span class="info19_span2"> !</span>
+                        </span>
+                    </div>
+                    <div class="info20">Thông tin tài khoản</div>
+                    <div class="info211">Đơn hàng của bạn</div>
+                    <div class="info191">Đổi mật khẩu</div>
+                    <div class="info192">Sổ địa chỉ (0)</div>
+                    <div class="info193">Đăng xuất</div>
+                </div>
+                <div class="flex_col1">
+                    <div class="flex_col2">
+                        <div class="info181">THÔNG TIN TÀI KHOẢN</div>
+                        <div class="info182">Họ tên:</div>
+                    </div>
+                    <div class="info182">Email:</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section4">
+            <div class="flex_row5">
+                <div class="flex_row6">
+                    <div class="color4"></div>
+                    <div class="color4"></div>
+                    <div class="color4"></div>
+                    <div class="color4"></div>
+                    <div class="color4"></div>
+                </div>
+                <div class="flex_row7">
+                    <div class="info8">Nhận thông tin khuyến mãi từ chúng tôi</div>
+                    <div class="content_box4">
+                        <div class="content_box3">
+                            <button class="btn">
+                                <!-- TODO -->
+                                Đăng kí
+                            </button>
+                        </div>
+                        <div class="info9">Nhận email ưu đãi</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section5">
+            <div class="flex_row8">
+                <div class="flex_col3">
+                    <div class="flex_row9">
+                        <img class="wrapper" src="./assets/3918cc506486f6851af0b8515fe28735.png" alt="alt text" />
+                        <div class="info14">Bởi vì sách là thế giới</div>
+                    </div>
+                    <div class="flex_row10">
+                        <img class="image6" src="./assets/d947ae17bb5323c0b1092accd3b8feb4.svg" alt="alt text" />
+                        <p class="desc">
+                            Số 59, Đỗ Quang, Trung Hoà, Cầu Giấy,
+                            <br />
+                Hà Nội.
+                        </p>
+                    </div>
+                    <div class="flex_row11">
+                        <img class="image61" src="./assets/f33341d1373143e47b2973874080b587.svg" alt="alt text" />
+                        <div class="info11">info@nhanam.vn</div>
+                    </div>
+                    <div class="flex_row11">
+                        <img class="image61" src="./assets/d8117a4d9e36646eb05858ff7458e0fb.svg" alt="alt text" />
+                        <div class="info12">02435146876</div>
+                    </div>
+                    <div class="flex_row11">
+                        <img class="image61" src="./assets/b8b704041f524569a99aa836141441e5.svg" alt="alt text" />
+                        <div class="info13">02435146875</div>
+                    </div>
+                </div>
+                <div class="flex_col4">
+                    <div class="flex_col5">
+                        <div class="info15">Giới thiệu</div>
+                        <div class="info16">Về Nhã Nam</div>
+                    </div>
+                    <div class="info161">Hệ thống hiệu sách</div>
+                    <div class="info162">Hệ thống phát hành</div>
+                    <div class="info163">Tuyển dụng</div>
+                    <div class="info163">Liên hệ với chúng tôi</div>
+                </div>
+                <div class="flex_col6">
+                    <div class="info15">CHÍNH SÁCH</div>
+                    <div class="info164">Chính sách bảo mật</div>
+                    <div class="info165">Chính sách đổi trả/hoàn tiền</div>
+                    <div class="info165">Chính sách thanh toán/ vận chuyển</div>
+                </div>
+                <div class="flex_col7">
+                    <div class="info17">Phương thức thanh toán</div>
+                    <img class="image11" src="./assets/34a9a12d9f5224d8b320fc7761a01fd3.png" alt="alt text" />
+                    <img class="image12" src="./assets/3e18868d2a7085e572ca9f2c7a0875f3.png" alt="alt text" />
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
